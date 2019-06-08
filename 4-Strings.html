@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		
+		<title> JavaScript - Operators </title>
+		
+		<script type = "text/javascript">
+		
+			var firstname = "Ram";
+			var lastname = "Kapoor";
+			
+			document.write(firstname," ",lastname," says \"hello!\"");
+			
+			document.write("</br>");
+			
+			var fullname = firstname + " " + lastname;
+			
+			document.write(fullname," says \"hello!\"");
+			
+			document.write("</br>");
+			
+			var namelength = fullname.length; // this calculates length
+			
+			document.write("namelength is ",namelength);
+			
+			document.write("</br>");
+			
+			document.write("index of \"a\" in ",firstname," ",firstname.indexOf('a'));
+			
+			document.write("</br>");
+			
+			document.write("character at index "," ",lastname.charAt(4));
+			
+			document.write("</br>");
+			
+			var messageArray = new Array();
+			messageArray = fullname.split(' ');
+			document.write(messageArray[0]);
+			
+			document.write("</br>");
+			
+			document.write(messageArray[1]);
+			
+			document.write("</br>");
+			
+			document.write("substring in ", lastname, " is ", lastname.substr(2,5));
+			
+			document.write("</br>");
+			
+			document.write("Fullname in upper case ", fullname.toUpperCase());
+			
+			document.write("</br>");
+			
+			document.write("Fullname in lower case ", fullname.toLowerCase());
+			
+		</script>
+	</head>
+	
+	<body>
+	
+	
+	</body>
+</html>
