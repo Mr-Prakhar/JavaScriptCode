@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		
+		<title> JavaScript - Functions </title>
+		
+		<script type = "text/javascript">
+		
+			function sayHello()
+			{
+				// function code goes here
+				alert('Hello World');
+			}
+			
+			function say(message)
+			{
+				// function code goes here
+				alert(message);
+			}
+			
+			function add(a, b, c)
+			{
+				var answer = a+b+c;
+				document.write(answer);
+			}
+			
+			add(5,15,20);
+			
+		</script>
+	</head>
+	
+	<body>
+	
+		<form>
+			
+			<input type = "button" value = "Click here" onclick = "sayHello();"/>
+			<input type = "button" value = "Click here" onclick = "say('How are you?');"/>
+			
+		</form>
+		
+	</body>
+</html>
